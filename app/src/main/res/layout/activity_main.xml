@@ -31,10 +31,11 @@
 
     <TextView
         android:id="@+id/textview_reviewbook"
-        android:layout_width="68dp"
-        android:layout_height="24dp"
-        android:layout_marginTop="16dp"
-        android:text="teenager"
+        android:layout_width="134dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="5dp"
+        android:text="Boys of Tommen #1"
         app:layout_constraintStart_toStartOf="@+id/textview_bookName"
         app:layout_constraintTop_toBottomOf="@+id/textview_bookName" />
 
@@ -112,11 +113,12 @@
 
     <TextView
         android:id="@+id/textview_plotSummary"
-        android:layout_width="311dp"
-        android:layout_height="124dp"
-        android:layout_marginTop="16dp"
-        android:text=" gfjvmjgvjmv mnhjvbkvbmhj kljsfnvj,xnvg j,x nhjlgbhj bhhbfvbhjn vhj jhb hjvbh bv khj fvbhjg vhjhjb j bn "
+        android:layout_width="369dp"
+        android:layout_height="199dp"
+        android:layout_marginTop="8dp"
+        android:text="Falling into a complicated friendship and grappling with their undeniable chemistry, Johnny and Shannon must face obstacles that threaten their relationship.  Two teenagers from opposite sides of the tracks collide.  Friendship, first love, rising fame, horrifying secrets, and pain all fuel together in Binding 13.  Hearts are binding and lives are entwining in Binding 13.  Binding 13 is the explosive first installment of a brand-new series from Chloe Walsh. Based in Ireland, the Boys Of Tommen series is bound to captivate and lure you into the world of rugby, love, and teenage heartbreak."
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textview_plotSummaryTitle"
         app:layout_constraintTop_toBottomOf="@+id/textview_plotSummaryTitle" />
 
