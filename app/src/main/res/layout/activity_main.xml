@@ -8,12 +8,11 @@
 
     <ImageView
         android:id="@+id/imageview_book"
-        android:layout_width="172dp"
-        android:layout_height="277dp"
+        android:layout_width="193dp"
+        android:layout_height="284dp"
+        android:layout_marginEnd="228dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/binding13" />
@@ -22,7 +21,7 @@
         android:id="@+id/divider"
         android:layout_width="409dp"
         android:layout_height="1dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:background="?android:attr/listDivider"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,50 +54,40 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="rating of the book"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="383dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="264dp"
-        android:fontFamily="sans-serif-condensed"
-        android:text="9.8"
+        android:text="rating of the book: 3.7/4"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.413" />
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="239dp"
-        android:layout_height="440dp"
-        android:layout_marginStart="170dp"
+        android:layout_width="238dp"
+        android:layout_height="372dp"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="24dp"
         android:layout_marginBottom="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/imageview_book"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.021"
         app:srcCompat="@drawable/binding13cover" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="36dp"
         android:layout_height="35dp"
-        android:layout_marginTop="52dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView7"
-        app:layout_constraintHorizontal_bias="0.119"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageview_book"
         app:srcCompat="@drawable/star" />
@@ -107,25 +96,31 @@
         android:id="@+id/imageView3"
         android:layout_width="36dp"
         android:layout_height="35dp"
-        app:srcCompat="@drawable/star1"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="329dp" />
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:srcCompat="@drawable/star1" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="36dp"
         android:layout_height="35dp"
-        app:srcCompat="@drawable/star3"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="329dp" />
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:srcCompat="@drawable/star3" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="36dp"
         android:layout_height="35dp"
-        app:srcCompat="@drawable/star4"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="329dp" />
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:srcCompat="@drawable/star4" />
 
     <TextView
         android:id="@+id/textView3"
@@ -144,12 +139,13 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="4dp"
         android:fontFamily="sans-serif-condensed"
         android:text="by Chloe Walsh"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.619"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.341"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
